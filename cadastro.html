@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoAção - Unidos pelo Clima</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-wC2XY/jQ3uNRpt/RHP0o0nOyPGs41Kaevo45r4vmNUdmzR7wrVFaSSv9xhvbCcE4" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./estilos/style.css">
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="logo">
+      <a href="index.html"><img src="./img/logo.svg" alt="Logo da EcoAção"></a>
+    </div>
+
+    <nav>
+      <div class="header-menu-container">
+        <ul class="header-menu-lista">
+          <li class="header-menu-lista-item"><a class="" href="">Sobre</a></li>
+          <li class="header-menu-lista-item"><a class="" href="">Ações</a></li>
+          <li class="header-menu-lista-item"><a class="" href="">Notícias</a></li>
+          <li class="header-menu-lista-item"><a class="btn-login" href="">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <form action="cadastro">
+      <div class="conteudo-container-cadastro">
+        <div class="form-container-cadastro-externo">
+
+          <h1 class="login-titulo"">EcoAção</h1>
+          <h2 class=" login-subtitulo">unidos pelo clima</h2>
+
+            <div class=" form-container-cadastro-interno">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label-cadastro" for="nome">Nome</label><br>
+                  <input id="nome" class="form-input-cadastro" type="text" placeholder="Primeiro nome">
+                </div>
+                <div class="form-group">
+                  <label class="form-label-cadastro" for="sobrenome">Sobrenome</label><br>
+                  <input id="sobrenome" class="form-input-cadastro" type="text" placeholder="Último nome">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label-cadastro" for="cidade">Cidade</label><br>
+                  <input id="cidade" class="form-input-cadastro" type="text" placeholder="Cidade">
+                </div>
+                <div class="form-group">
+                  <label class="form-label-cadastro" for="estado">Estado</label><br>
+                  <input id="estado" class="form-input-cadastro" type="text" placeholder="Sigla">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label-cadastro" for="email">Email</label><br>
+                  <input id="email" class="form-input-cadastro" type="email" placeholder="ecoacao@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label class="form-label-cadastro" for="senha">Senha</label><br>
+                  <input id="senha" class="form-input-cadastro" type="password" placeholder="********">
+                </div>
+              </div>
+              <div class="registro-container-cadastro">
+                <button class="form-btn-cadastro"><a href="index.html">Criar conta</a></button>
+
+                <div class="login-container">
+                  <p class="registro-texto-cadastro">Já possui conta?</p>
+                  <button class="form-btn-login"><a href="login.html">Entrar</a></button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer-container">
+    <a href="./index.html"><img src="./img/logo-footer.svg" alt="Logo da EcoAção"></a>
+    <p class="footer-texto">Desenvolvido por Patrick Quine</p>
+  </footer>
+</body>
+
+</html>

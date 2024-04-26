@@ -1,0 +1,14 @@
+@import "./global/global.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+
+/* Header e Footer */
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Páginas */
+@import "./paginas/login.css";
+@import "./paginas/cadastro.css";
+@import "./paginas/index.css";

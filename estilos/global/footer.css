@@ -1,0 +1,15 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--verde-bg);
+    height: 120px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-texto {
+    color: #2f3f20;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+}
