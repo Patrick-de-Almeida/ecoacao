@@ -1,0 +1,51 @@
+.introducao {
+    background-image: url("../../img/fundo-intro.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.introducao-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.introducao-container h1 {
+    background-color: black;
+    width: fit-content;
+    margin-top: 100px;
+    font-size: 2.25rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.introducao-container p {
+    background-color: black;
+    width: fit-content;
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.introducao-container a {
+    margin-top: 1rem;
+    background-color: #f2fffe;
+    color: #377d97;
+    border: 2px solid var(--verde-bg);
+    width: 160px;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+}
+
+.introducao-container a:hover {
+    background-color: #adc29a;
+    color: var(--branco);
+    transition: 0.3s ease;
+    font-weight: 600;
+}
