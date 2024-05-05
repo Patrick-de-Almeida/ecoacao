@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EcoAção - Unidos pelo Clima</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./estilos/style.css">
 </head>
 
@@ -17,9 +21,8 @@
     <nav>
       <div class="header-menu-container">
         <ul class="header-menu-lista">
-          <li class="header-menu-lista-item"><a class="" href="">Sobre</a></li>
-          <li class="header-menu-lista-item"><a class="" href="">Ações</a></li>
-          <li class="header-menu-lista-item"><a class="" href="">Notícias</a></li>
+          <li class="header-menu-lista-item"><a class="" href="#sobre">Sobre</a></li>
+          <li class="header-menu-lista-item"><a class="" href="#perguntas">Dúvidas</a></li>
           <li class="header-menu-lista-item"><a class="btn-login" href="./login.html">Login</a></li>
         </ul>
       </div>
@@ -35,52 +38,96 @@
       </div>
     </section>
 
-    <section class="sobre">
-      <h1>Sobre nós</h1>
-      <div class="sobre-conteudo">
-        <h2>Conteúdo Educacional</h2>
-        <p>Acesso a informações sobre as mudanças climáticas e entendeu seu impacto no planeto.</p>
-      </div>
-      <div class="sobre-conteudo">
-        <h2>Dicas Práticas</h2>
-        <p>Aprenda como aplicar medidas viáveis ​​​​em direção à sustentabilidade em sua rotina.</p>
-      </div>
-      <div class="sobre-conteudo">
-        <h2>Ação Comunitária</h2>
-        <p>Junta-se a iniciativas e campanhas que fazem a diferença no seu entorno.</p>
+    <section id="sobre" class="sobre">
+      <div class="sobre-container">
+        <div class="sobre-textos">
+          <h1 class="sobre-textos-titulo">Sobre nós.</h1>
+          <div class="sobre-conteudo">
+            <h2>Conteúdo Educacional</h2>
+            <p>Acesso a informações sobre as mudanças climáticas e entender seu impacto no planeta.</p>
+          </div>
+          <div class="sobre-conteudo">
+            <h2>Dicas Práticas</h2>
+            <p>Aprenda como aplicar medidas viáveis ​​​​em direção à sustentabilidade em sua rotina.</p>
+          </div>
+          <div class="sobre-conteudo">
+            <h2>Ação Comunitária</h2>
+            <p>Junte-se a iniciativas e campanhas que fazem a diferença no seu entorno.</p>
+          </div>
+        </div>
+        <div class="imagem-sobre">
+          <img class="img-index" src="./img/imgindex.jpg" alt="Foto representando a sustentabilidade.">
+        </div>
       </div>
     </section>
 
-    <section class="perguntas">
-      <h1>Perguntas Frequentes</h1>
-      <div class="perguntas-conteudo">
-        <h2>O que é o EcoAção?</h2>
-        <p>EcoAção é um portal web dedicado a aumentar a conscientização e promover ações contra as mudanças climáticas.</p>
-      </div>
+    <div class="nova-secao">
+      <section id="educacional" class="educacional nova-secao-container">
+        <h2 class="educacional-titulo">Entenda as Mudanças Climáticas</h2>
+        <p>As mudanças climáticas referem-se a alterações significativas nas condições climáticas globais que ocorrem em escalas de tempo prolongadas. Saiba mais nos links abaixo.</p>
+        <ul>
+          <li><a target="_blank" href="https://www.wwf.org.br/natureza_brasileira/reducao_de_impactos2/clima/mudancas_climaticas2/#:~:text=Entre%20as%20principais%20atividades%20humanas,do%20solo%3B%20agropecu%C3%A1ria%3B%20descarte%20de">Artigo: "As Mudanças Climáticas"</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/watch?v=JGwcFHggW90">Vídeo: "Impactos das Mudanças Climáticas"</a></li>
+          <li><a target="_blank" href="https://soberaniaeclima.org.br/infograficos/infografico-explica-os-desafios-para-a-seguranca-global-causados-pelas-mudancas-climaticas/">Infográfico: "Estatísticas Importantes"</a></li>
+        </ul>
+        <img class="img-colunas" src="./img/img1.jpg" alt="">
+      </section>
 
-      <div class="perguntas-conteudo">
-        <h2>A mudança climática é realmente tão séria?</h2>
-        <p>Sim, os efeitos da mudança climática são significativos e requerem ação imediata para mitigar.</p>
-      </div>
+      <section id="dicas" class="dicas nova-secao-container">
+        <h2 class="dicas-titulo">Dicas Práticas de Sustentabilidade</h2>
+        <p>Implemente essas ações simples para fazer uma diferença significativa:</p>
+        <ul>
+          <li><span>Transporte:</span> Opte por transportes públicos, bicicleta ou carona solidária para reduzir emissões de CO2.</li>
+          <li><span>Consumo de energia:</span> Troque lâmpadas comuns por LED e invista em eletrodomésticos de baixo consumo.</li>
+          <li><span>Redução de resíduos:</span> Prefira produtos com menos embalagens e pratique a compostagem doméstica.</li>
+          <li><span>Alimentação sustentável:</span> Reduza o consumo de carne e escolha produtos locais e da estação.</li>
+        </ul>
+        <img class="img-colunas" src="./img/img2.jpg" alt="">
+      </section>
 
-      <div class="perguntas-conteudo">
-        <h2>Pequenas ações podem fazer a diferença?</h2>
-        <p>Com certeza! Cada pequena ação contribui para um impacto maior quando combinadas.</p>
-      </div>
+      <section id="acao" class="acao nova-secao-container">
+        <h2 class="acao-titulo">Participe de Ações e Conheça ONGs</h2>
+        <ul>
+          <li><a target="_blank" href="https://mapinguari.org/">Instituto Mapinguari</a> - Focada na defesa, preservação e conservação do meio ambiente.</li>
+          <li><a target="_blank" href="https://climaesociedade.org/">Instituto Clima e Sociedade</a> - Organização que apoia projetos e instituições dedicados ao enfrentamento das mudanças climáticas</li>
+          <li><a target="_blank" href="https://brasil.oceana.org/">Oceana</a> - Proteção e restauração dos oceanos em uma escala global.</li>
+        </ul>
+        <img class="img-colunas" src="./img/img3.jpg" alt="">
+      </section>
+    </div>
 
-      <div class="perguntas-conteudo">
-        <h2>Como posso contribuir?</h2>
-        <p>Você pode contribuir seguindo nossas dicas práticas e participando de iniciativas comunitárias.</p>
-      </div>
+    <section id="perguntas" class="perguntas">
+      <div class="perguntas-container">
+        <h1>Perguntas Frequentes</h1>
+        <div class="perguntas-conteudo">
+          <h2>O que é o EcoAção?</h2>
+          <p>Nós somos um portal web dedicado a aumentar a conscientização e promover ações contra as mudanças climáticas.</p>
+        </div>
 
-      <div class="perguntas-conteudo">
-        <h2>Como a EcoAção ajuda?</h2>
-        <p>Nós fornecemos recursos e uma plataforma para aprendizado e ação coletiva.</p>
-      </div>
+        <div class="perguntas-conteudo">
+          <h2>A mudança climática é realmente tão séria?</h2>
+          <p>Sim, os efeitos da mudança climática são significativos e requerem ação imediata para mitigar.</p>
+        </div>
 
-      <div class="perguntas-conteudo">
-        <h2>Com que frequência as informações são atualizadas?</h2>
-        <p>Nós regularmente atualizamos nosso conteúdo para garantir relevância e precisão.</p>
+        <div class="perguntas-conteudo">
+          <h2>Pequenas ações podem fazer a diferença?</h2>
+          <p>Com certeza! Cada pequena ação contribui para um impacto maior quando combinadas.</p>
+        </div>
+
+        <div class="perguntas-conteudo">
+          <h2>Como posso contribuir?</h2>
+          <p>Você pode contribuir seguindo nossas dicas práticas e participando de iniciativas comunitárias.</p>
+        </div>
+
+        <div class="perguntas-conteudo">
+          <h2>Como o EcoAção ajuda?</h2>
+          <p>Nós fornecemos recursos e uma plataforma para aprendizado e ação coletiva.</p>
+        </div>
+
+        <div class="perguntas-conteudo">
+          <h2>Com que frequência as informações são atualizadas?</h2>
+          <p>Nós regularmente atualizamos nosso conteúdo para garantir relevância e precisão.</p>
+        </div>
       </div>
     </section>
   </main>
