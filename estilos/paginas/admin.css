@@ -1,0 +1,152 @@
+.main-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fcfffe;
+    min-height: 76vh;
+}
+
+.form-container-admin {
+    background-color: #1a5c6e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #fcfffe;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 30px;
+    margin-left: -35%;
+}
+
+.form-group {
+    margin-top: 8px;
+}
+
+.form-group input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #004aa1;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.form-btn-admin {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #004aa1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-container {
+    display: flex;
+    gap: 10px;
+    margin-top: -15%;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btn-admin-clear {
+    margin-top: -5%;
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-btn-admin-clear:hover {
+    background-color: #adc29a;
+}
+
+.form-btn-admin {
+    background-color: #009f8e;
+}
+
+.form-btn-admin:hover {
+    background-color: #004aa1;
+}
+
+.clear-btn {
+    background-color: #798d67;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 26%;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user-item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #009f8e;
+    color: #fcfffe;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn {
+    background-color: #c2272d;
+    color: #fcfffe;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 300px;
+    transition: 0.3s ease;
+}
+
+.delete-btn {
+    background-color: #ff6347;
+}
+
+.search-box {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #004aa1;
+    margin-bottom: 20px;
+}
+
+.form-group-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clear-form-btn {
+    background-color: #798d67;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clear-form-btn:hover {
+    background-color: #adc29a;
+}
